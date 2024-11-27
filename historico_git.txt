@@ -1,0 +1,11 @@
+commit 703c50a6fa0704835bc62f75186ae6d1dfc932c1
+Author: marcosbidoli <marcos.v.bidoli@usp.br>
+Date:   Wed Nov 27 12:17:40 2024 -0300
+
+    Dando commit nos arquivos da parte 1
+
+commit 3d907c217e385e30534b67a4eccfeb6baaea7e71
+Author: Marcos Bidoli <marcosviniciusbidoli@gmail.com>
+Date:   Wed Nov 27 11:43:18 2024 -0300
+
+    Dando commit nos arquivos da parte 1
