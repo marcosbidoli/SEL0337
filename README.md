@@ -48,3 +48,9 @@ e esteja à disposição no momento de inicialização do sistema.
 
 Ao reiniciar a Raspberry, foi possível visualizar o comportamento de oscilação do LED na bancada, assim como previsto. Além disso, ao desligar o 
 dispositivo, o LED para de piscar, pois o segundo script (blinkstop.py) foi executado pelo systemD.
+
+
+### Observação
+
+A parte 2 do trabalho foi realizada em um horário extra-aula, através de um computador próprio que possui sistema Linux instalado, por isso
+o arquivo obtido através do comando "git log" não consta com o nome da raspberry pi do laboratório
