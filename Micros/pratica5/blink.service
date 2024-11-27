@@ -1,0 +1,11 @@
+[Unit]
+Description= Blink LED
+After=multi-user.target
+
+[Service]
+ExecStart=/bin/python /home/sel/2849/pratica5/blink.py
+ExecStop=/home/sel/2849/pratica5/blinkstop.py
+user=SEL
+
+[Install]
+WantedBy=multi-user.target
