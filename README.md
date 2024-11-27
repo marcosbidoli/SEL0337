@@ -7,6 +7,17 @@ de determinado script no linux embarcado na SBC Raspberry Pi 3.
 
 ### Resumo teórico SystemD
 
+O SystemD é um sistema de inicialização e gerenciamento de serviços para sistemas operacionais Linux. Ele substitui o tradicional sistema de
+inicialização SysV e é responsável por gerenciar a inicialização do sistema, a execução de serviços e a supervisão de processos. O SystemD permite
+que os serviços sejam iniciados de forma paralela, melhorando a eficiência do boot, e fornece ferramentas para gerenciar serviços, como o systemctl,
+que permite iniciar, parar e monitorar serviços de forma simples e eficaz.
+
+Os serviços no SystemD são definidos por arquivos de unidade, que descrevem como um serviço deve ser iniciado, parado e gerenciado. Esses arquivos
+contêm informações sobre dependências, comandos de inicialização e outras configurações necessárias. Para isso, ele gerencia as dependências entre
+serviços, garantindo que um serviço só seja iniciado quando todos os serviços dos quais ele depende estiverem prontos. O comando systemctl é a
+interface principal para interagir com o SystemD. Ele permite iniciar, parar, reiniciar e verificar o status dos serviços, além de habilitar ou
+desabilitar serviços para inicialização automática no boot.
+
 ### Prática realizada
 
 Para a prática, os conceitos apresentados até então foram utilizados para criar um sistema capaz de compilar um programa em python, nesse caso,
