@@ -1,0 +1,95 @@
+  196  sudo 2849/bin/activate
+  197  sudo venv 2849/bin/activate
+  198  venv 2849/bin/activate
+  199  ls
+  200  cd 2849
+  201  ls
+  202  mkdir pratica5
+  203  cd pratica
+  204  cd pratica5
+  205  nano pratica5_1.bash
+  206  chmod +x blink.sh
+  207  ./blink.sh
+  208  nano blink.sh
+  209  ./blink.sh
+  210  nano blink.service
+  211  sudo cp blink.service /lib/systemd/system
+  212  sudo cp blink.service /lib/systemd/system/
+  213  sudo systemctl start blink
+  214  sudo systemctl stop blink
+  215  sudo systemctl enable blink
+  216  sudo raspi-config
+  217  sudo systemctl status blink.service
+  218  cd 2849
+  219  cdpratica5
+  220  cd pratica5
+  221  nano blink.py
+  222  python blink.py
+  223  nano blink.py
+  224  python blink.py
+  225  nano blink.py
+  226  python blink.py
+  227  source ./2849/bin/activate
+  228  cd
+  229  source ./2849/bin/activate
+  230  source ./4522/bin/activate
+  231  cd 2849/pratica5
+  232  python blink.py
+  233  nano blink.py
+  234  python blink.py
+  235  pip install gpio
+  236  python blink.py
+  237  pip freeze
+  238  source ./4522/bin/deactivate
+  239  source ./2849/bin/activate
+  240  deactivate
+  241  pip freeze
+  242  pip install gpio
+  243  nano blinkstop.py
+  244  cd 2849/pratica5
+  245  nano blinkstop.py
+  246  python blinkstop.py
+  247  ..
+  248  cd ..
+  249  cd
+  250  python3 -m venv 2849
+  251  source 2849/bin/activate
+  252  pip3 install gpiozero
+  253  pip3 install RPi.GPIO
+  254  cd 2849/pratica5
+  255  python blinkstop.py
+  256  pip freeze
+  257  python blink.py
+  258  sudo apt-get update && sudo apt-get upgrade
+  259  python blink.py
+  260  pip3 install gpiozero
+  261  pip3 install RPi.GPIO
+  262  python blink.py
+  263  nano blink.py
+  264  pip3 uninstall gpiozero
+  265  pip3 uninstall RPi.GPIO
+  266  pip3 uninstall mrfc522
+  267  pip3 install mrfc522
+  268  pip3 uninstall mrfc522
+  269  pip3 uninstall mfrc522
+  270  pip3 uninstall smbus
+  271  pip3 install gpiozero
+  272  pip3 install RPi.GPIO
+  273  python blink.py
+  274  python blinkstop.py
+  275  deactivate
+  276  sudo cp blink.service /lib/systemd/system/
+  277  sudo systemctl enable blink
+  278  sudo systemctl daemon-reload
+  279  cd 2849/pratica5
+  280  nano blink.service
+  281  sudo cp blink.service /lib/systemd/system/
+  282  sudo systemctl daemon-reload
+  283  cd 2849/pratica5
+  284  nano blink.service
+  285  sudo cp blink.service /lib/systemd/system/
+  286  sudo systemctl daemon-reload
+  287  history
+  288  history-95 > historico.txt
+  289  history -95 > historico.txt
+  290  history 95 > historico.txt
